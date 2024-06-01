@@ -4,7 +4,10 @@ import "./globals.css";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
 
-const roboto = Roboto({ subsets: ["latin"], weight: ["300"] });
+const roboto = Roboto({
+	subsets: ["latin"],
+	weight: ["300", "400", "500", "700", "900"],
+});
 
 export const metadata: Metadata = {
 	title: "TheBlog",

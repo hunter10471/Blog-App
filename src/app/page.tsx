@@ -24,7 +24,7 @@ export default function Home() {
 					height={50}
 				/>
 			</div>
-			<div className="relative ">
+			<div>
 				<Image
 					unoptimized
 					src={"/hero.gif"}

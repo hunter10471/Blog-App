@@ -27,7 +27,7 @@ const Links = () => {
 				{session ? (
 					<>
 						{isAdmin && (
-							<Link href={"/admin"} className="px-6 py-2 font-medium ">
+							<Link href={"/admin"} className="px-6 py-2 font-medium">
 								Admin
 							</Link>
 						)}
