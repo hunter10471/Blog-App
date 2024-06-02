@@ -15,6 +15,7 @@ const config: Config = {
 			},
 			colors: {
 				primary: "#0d0c22",
+				primaryLight: "#2d2b42",
 				button: "#3673fd",
 			},
 			fontFamily: {

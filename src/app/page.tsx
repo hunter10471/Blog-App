@@ -13,7 +13,7 @@ export default function Home() {
 					engage in meaningful conversations.
 				</h2>
 				<div className="flex gap-5 my-6">
-					<Button isPrimary text="Learn More" />
+					<Button isPrimary text="Our Blog" />
 					<Button isWhite text="Contact us" />
 				</div>
 				<Image
