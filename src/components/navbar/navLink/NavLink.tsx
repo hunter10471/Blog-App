@@ -1,8 +1,8 @@
-import { Link as LinkInterface } from "@/interfaces/Link.interface";
+import { ILink } from "@/interfaces/Link.interface";
 import Link from "next/link";
 
 interface LinkProps {
-	data: LinkInterface;
+	data: ILink;
 	path: string;
 }
 

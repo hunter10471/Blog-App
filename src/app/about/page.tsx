@@ -1,8 +1,15 @@
+import { Metadata } from "next";
 import Image from "next/image";
+
+export const metadata: Metadata = {
+	title: "About Us - ThePostBox",
+	description:
+		"Learn more about ThePostBox, our mission, and our team. Discover how we bring you the best blogs and articles on various topics.",
+};
 
 const AboutPage = () => {
 	return (
-		<div className="flex items-center justify-between gap-10">
+		<div className="flex flex-col-reverse md:flex-row items-center justify-between gap-10">
 			<div className="flex flex-col flex-1 gap-8 ">
 				<h2 className="text-button font-black text-2xl">Our Story</h2>
 				<h1 className="flex flex-col font-heading font-bold text-[36px]">

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 interface LogoProps {
 	isLarge?: boolean;
 	isColumn?: boolean;
@@ -5,7 +7,8 @@ interface LogoProps {
 
 const Logo = ({ isLarge, isColumn }: LogoProps) => {
 	return (
-		<div
+		<Link
+			href={"/"}
 			className={`flex leading-[60px] font-heading gap-1 ${
 				isLarge ? "text-[64px]" : "text-[32px]"
 			} ${isColumn ? "flex-col" : ""}  font-heading font-thin`}
@@ -18,7 +21,7 @@ const Logo = ({ isLarge, isColumn }: LogoProps) => {
 			>
 				PostBox
 			</b>
-		</div>
+		</Link>
 	);
 };
 
